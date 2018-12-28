@@ -1,7 +1,7 @@
 #pragma once
 #include "stdafx.h"
 
-class Enc
+class Enc /* encryption/decryption class*/
 {
 public:
 
@@ -21,3 +21,5 @@ public:
 	void de_key(unsigned Z[7][10], unsigned DK[7][10]);
 
 };
+
+
